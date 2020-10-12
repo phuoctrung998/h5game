@@ -1,0 +1,14 @@
+@media (max-width: 1366px) {
+    .tls-right {
+        position: absolute;
+        top: 40%;
+    }
+}
+@media (max-width: 1024px) {
+    .scroll-box {
+        height: 1000px;
+    }
+    .tls-footer img {
+        left: 100px;
+    }
+}
