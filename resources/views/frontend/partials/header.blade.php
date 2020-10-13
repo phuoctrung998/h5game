@@ -21,7 +21,7 @@
                 <nav>
                     <ul>
                         <li><strong><h3>
-                            <a href="#" style="width:100px;color:blue;font-size:10pt"><i class="topbar-ico-set"></i> DANH MỤC</a></strong></h3>
+                            <a href="#" style="width:100px;color:blue;font-size:11pt"><i class="topbar-ico-set"></i> DANH MỤC</a></strong></h3>
                             <ul>
                                 <li><a class="ripple active"   style="font-size:10pt" aria-current="page" target="blank " href="http://mangaplay.vn/">Trang chủ</a></li>
                                 <li><a class="ripple" href="#" style="font-size:10pt" rel="noopener noreferrer"> Nạp thẻ</a></li>
@@ -52,21 +52,21 @@
                 <div class="topbar-bt-login" id="topbar-inner-logout-container">
 
                     @if(Auth::check())
-                    <a  id="topbar-pprt-login" class="topbar-link">{{ Auth::user()->name }}</a>
+                    <a  id="topbar-pprt-login" style="font-size:12pt" class="topbar-link">{{ Auth::user()->name }}</a>
                     <span class="topbar-bt-sign">
                         <a href="{{ route('logout') }}"
-                        onclick="event.preventDefault(); document.getElementById('logout-form').submit();" class="topbar-link">Logout</a>
+                        onclick="event.preventDefault(); document.getElementById('logout-form').submit();" class="topbar-link">Thoát</a>
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                             @csrf
                         </form>
                     </span>
+
                     @else
                     <a href="/login" id="topbar-pprt-login" class="topbar-link">Đăng nhập</a>
                     <span class="topbar-bt-sign">
                         <a href="/register" class="topbar-link">Đăng ký</a>
                     </span>
                     @endif
-
                 </div>
             </div>
         </div>
@@ -99,7 +99,7 @@
                 alert("Dùng Ctrl + D để lưu URL");
                 }
                 </script>
-                <a href=""><i class="ico ico-xyx"></i>{{$counts}} game hot</a></div>
+                <a href="#"><i class="ico ico-xyx"></i>{{$counts}} game hot</a></div>
             </div>
             <div class="animated animated3 bounceInRight delay0d5s"><br>
                 <div class="txt">Người dùng máy tính<br> vui lòng sử dụng<br> những trình duyệt này<i class="line line1"></i><i class="line line2"></i></div>

@@ -48,10 +48,12 @@
          nav> ul li a{
             display: block;
             padding: 0 25px;
-            line-height: 50px;
+            line-height: 40px;
             color: black;
-            text-decoration: blink;
+            text-decoration: none;
             font-family: aria;
+
+
          }
          nav ul li:first-child {
             border-left: none; /* bỏ đường kè trái của phần tử đầu tiên */
@@ -59,11 +61,13 @@
          nav> ul li:first-child a{
             border-bottom-left-radius: 5px;
             border-top-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            border-top-right-radius: 5px;
          }
          /* Khi hover đến li, tô màu cho thẻ a */
          nav ul li:hover>a{
-            background: white;
-            opacity: .7;
+            background: #ccd9ff;
+            opacity: 1;
             color: red;
          }
          /*menu con*/
@@ -77,9 +81,8 @@
             width: 100%;
             border: none;
             border-bottom: none;
-            background: #eeccff;
+            background: #ffc299;
             text-align: left;
-
          }
 
 

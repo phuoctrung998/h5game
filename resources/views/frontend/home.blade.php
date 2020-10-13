@@ -86,7 +86,6 @@
                                     </li>
                                     @endforeach
                                 </ul>
-                                {!! $allgames->links() !!}
                             </div>
 
 
@@ -103,7 +102,7 @@
                                             <div class="tit"><a href="{{$game->game_url}}" target="_blank">{{$game->name}}</a></div>
                                             <div class="info"><span class="sep">|</span><span class="num pv"></span> Người đã chơi</div>
                                             <div class="link-box">
-                                                <a href="{{$game->game_url}}" target="_blank">Chơi ngay</a>
+                                                <a href="{{$game->game_url}}" target="_blank">Chơi ngay</a><br>
                                                 <a href="javascript:;" class="mobile" >{{$game->name}}</a>
                                             </div>
                                         </div>
@@ -125,7 +124,7 @@
                                             <div class="tit"><a href="{{$game->game_url}}" target="_blank">{{$game->name}}</a></div>
                                             <div class="info"><span class="sep">|</span><span class="num pv"></span> Người đã chơi</div>
                                             <div class="link-box">
-                                                <a href="{{$game->game_url}}" target="_blank">Chơi ngay</a>
+                                                <a href="{{$game->game_url}}" target="_blank">Chơi ngay</a><br>
                                                 <a href="javascript:;" class="mobile" >{{$game->name}}</a>
                                             </div>
                                         </div>
@@ -147,7 +146,7 @@
                                             <div class="tit"><a href="{{$game->game_url}}" target="_blank">{{$game->name}}</a></div>
                                             <div class="info"><span class="sep">|</span><span class="num pv"></span> Người đã chơi</div>
                                             <div class="link-box">
-                                                <a href="{{$game->game_url}}" target="_blank">Chơi ngay</a>
+                                                <a href="{{$game->game_url}}" target="_blank">Chơi ngay</a><br>
                                                 <a href="javascript:;" class="mobile" >{{$game->name}}</a>
                                             </div>
                                         </div>
@@ -170,7 +169,7 @@
                                             <div class="tit"><a href="{{$game->game_url}}" target="_blank">{{$game->name}}</a></div>
                                             <div class="info"><span class="sep">|</span><span class="num pv"></span> Người đã chơi</div>
                                             <div class="link-box">
-                                                <a href="{{$game->game_url}}" target="_blank">Chơi ngay</a>
+                                                <a href="{{$game->game_url}}" target="_blank">Chơi ngay</a><br>
                                                 <a href="javascript:;" class="mobile" >{{$game->name}}</a>
                                             </div>
                                         </div>
@@ -193,7 +192,7 @@
                                             <div class="tit"><a href="{{$game->game_url}}" target="_blank">{{$game->name}}</a></div>
                                             <div class="info"><span class="sep">|</span><span class="num pv"></span> Người đã chơi</div>
                                             <div class="link-box">
-                                                <a href="{{$game->game_url}}" target="_blank">Chơi ngay</a>
+                                                <a href="{{$game->game_url}}" target="_blank">Chơi ngay</a><br>
                                                 <a href="javascript:;" class="mobile" >{{$game->name}}</a>
                                             </div>
                                         </div>
@@ -216,7 +215,7 @@
                                             <div class="tit"><a href="{{$game->game_url}}" target="_blank">{{$game->name}}</a></div>
                                             <div class="info"><span class="sep">|</span><span class="num pv"></span> Người đã chơi</div>
                                             <div class="link-box">
-                                                <a href="{{$game->game_url}}" target="_blank">Chơi ngay</a>
+                                                <a href="{{$game->game_url}}" target="_blank">Chơi ngay</a><br>
                                                 <a href="javascript:;" class="mobile" >{{$game->name}}</a>
                                             </div>
                                         </div>
@@ -298,7 +297,11 @@
                 </div>
                 <div class="pn-bd">
                     <div class="link-box">
-                        <a href="http://flash.17173.com/" target="_blank">17173小游戏</a> <a href="http://h5.17173.com/" target="_blank">17173h5游戏</a><a href="http://xx.yeyou.com/" target="_blank">页游网H5</a><a href="http://xyq.17173.com/" target="_blank">17173梦幻西游</a><a href="http://bns.17173.com/" target="_blank">17173剑灵</a>
+                            <a href="http://mangaplay.vn/" target="_blank">Trang chủ MangaPlay</a>
+                            <a href="http://narutotocchien.com/" target="_blank">Naruto Tốc chiến</a>
+                            <a href="http://sieuxayda.com/" target="_blank">Siêu Xayda</a>
+                            <a href="https://bleachvn.com/" target="_blank">Bleach Online</a>
+                            <a href="https://narutolucdao.com/" target="_blank">Naruto Lục đạo</a>
                     </div>
                 </div>
             </div>
