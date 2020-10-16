@@ -79,8 +79,8 @@
          }
          nav li>ul li{
             width: 100%;
-            border: none;
-            border-bottom: none;
+            border: 2px;
+            border-bottom: 2px;
             background: #ffc299;
             text-align: left;
          }
@@ -257,3 +257,4 @@
     <script type="text/javascript">
         location.protocol === 'http:' && advConfigs.loadConfigFile('sj/fufeituiguang.js');
     </script>
+
