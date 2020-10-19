@@ -30,7 +30,7 @@ class GameController extends Controller
                     $item = new GameModel();
 
                     $request->validate([
-                        'images' => 'required|mimes:pdf,xlx,csv,png,jpg',
+                        'images' => 'required|',
                     ]);
                     $path="/uploads/games/game/";
                     $fileName       = time().'.'.$request->images->extension();
@@ -112,7 +112,7 @@ class GameController extends Controller
                     $item = GameModel::find($id);
 
                     $request->validate([
-                        'images' => 'required|mimes:pdf,xlx,csv,png,jpg',
+                        'images' => 'required|',
                     ]);
                     $path="/uploads/games/game/";
                     $fileName       = time().'.'.$request->images->extension();
@@ -182,7 +182,7 @@ class GameController extends Controller
                 {
                     $item = new GamecatesModel();
                     $request->validate([
-                        'images' => 'required|mimes:pdf,xlx,csv,png,jpg',
+                        'images' => 'required|',
                     ]);
                     $path     ="/uploads/games/gamecates/";
                     $fileName = time().'.'.$request->images->extension();
@@ -248,7 +248,7 @@ class GameController extends Controller
                     $item = GamecatesModel::find($id);
 
                     $request->validate([
-                        'images' => 'required|mimes:pdf,xlx,csv,png,jpg',
+                        'images' => 'required|',
                     ]);
                     $path="/uploads/games/gamecates/";
                     $fileName = time().'.'.$request->images->extension();

@@ -68,7 +68,7 @@
                                 <!-- list-game -->
                                 <ul class="list-game js-code clearfix" id="demo1" data-widget="commentinfo" data-widget-pv=".pv" data-widget-cv="false">
                                     @foreach($allgames as $game)
-                                    <li data-topicId="10052378_1_92064">
+                                    <li data-topicId="">
 
                                         <div class="pic-box">
                                             <a href="{{$game->game_url}}" target="_blank"><img src="{{$game->images}}" alt="" width="75" height="75"></a>
@@ -76,7 +76,7 @@
 
                                         <div class="detail-box">
                                             <div class="tit"><a href="{{$game->game_url}}" target="_blank">{{$game->name}}</a></div>
-                                            <div class="info"><span class="sep">|</span><span class="num pv"></span> Người đã chơi</div>
+                                            <div class="info"><span class="sep">|</span><span class="num pv">{{$game->views}}</span> Người đã chơi</div>
                                             <div class="link-box">
                                                 <a href="{{$game->game_url}}" target="_blank">Chơi ngay</a>
                                                 <a href="javascript:;" class="mobile" >Chơi trên di động</a>
@@ -92,7 +92,7 @@
                             <div class="gb-tab-con" style="display: none;">
                                 <ul class="list-game js-code clearfix" id="demo1" data-widget="commentinfo" data-widget-pv=".pv" data-widget-cv="false">
                                     @foreach($gamecates as $game)
-                                    <li data-topicId="10054043_1_92064">
+                                    <li data-topicId="">
                                         <div class="pic-box">
                                             <a href="{{$game->game_url}}" target="_blank">
                                                 <img src="{{$game->images}}" alt="" width="75" height="75">
@@ -100,7 +100,7 @@
                                         </div>
                                         <div class="detail-box">
                                             <div class="tit"><a href="{{$game->game_url}}" target="_blank">{{$game->name}}</a></div>
-                                            <div class="info"><span class="sep">|</span><span class="num pv"></span> Người đã chơi</div>
+                                            <div class="info"><span class="sep">|</span><span class="num pv">{{$game->views}}</span> Người đã chơi</div>
                                             <div class="link-box">
                                                 <a href="{{$game->game_url}}" target="_blank">Chơi ngay</a><br>
                                                 <a href="javascript:;" class="mobile" >{{$game->name}}</a>
@@ -114,7 +114,7 @@
                             <div class="gb-tab-con" style="display: none;">
                                 <ul class="list-game js-code clearfix" id="demo1" data-widget="commentinfo" data-widget-pv=".pv" data-widget-cv="false">
                                     @foreach($gamecates2 as $game)
-                                    <li data-topicId="10054043_1_92064">
+                                    <li data-topicId="">
                                         <div class="pic-box">
                                             <a href="{{$game->game_url}}" target="_blank">
                                                 <img src="{{$game->images}}" alt="" width="75" height="75">
@@ -122,7 +122,7 @@
                                         </div>
                                         <div class="detail-box">
                                             <div class="tit"><a href="{{$game->game_url}}" target="_blank">{{$game->name}}</a></div>
-                                            <div class="info"><span class="sep">|</span><span class="num pv"></span> Người đã chơi</div>
+                                            <div class="info"><span class="sep">|</span><span class="num pv">{{$game->views}}</span> Người đã chơi</div>
                                             <div class="link-box">
                                                 <a href="{{$game->game_url}}" target="_blank">Chơi ngay</a><br>
                                                 <a href="javascript:;" class="mobile" >{{$game->name}}</a>
@@ -136,7 +136,7 @@
                                 <ul class="list-game js-code clearfix" id="demo1" data-widget="commentinfo" data-widget-pv=".pv" data-widget-cv="false">
 
                                     @foreach($gamecates3 as $game)
-                                    <li data-topicId="10054043_1_92064">
+                                    <li data-topicId="">
                                         <div class="pic-box">
                                             <a href="{{$game->game_url}}" target="_blank">
                                                 <img src="{{$game->images}}" alt="" width="75" height="75">
@@ -144,7 +144,7 @@
                                         </div>
                                         <div class="detail-box">
                                             <div class="tit"><a href="{{$game->game_url}}" target="_blank">{{$game->name}}</a></div>
-                                            <div class="info"><span class="sep">|</span><span class="num pv"></span> Người đã chơi</div>
+                                            <div class="info"><span class="sep">|</span><span class="num pv">{{$game->views}}</span> Người đã chơi</div>
                                             <div class="link-box">
                                                 <a href="{{$game->game_url}}" target="_blank">Chơi ngay</a><br>
                                                 <a href="javascript:;" class="mobile" >{{$game->name}}</a>
@@ -159,7 +159,7 @@
                                 <ul class="list-game js-code clearfix" id="demo1" data-widget="commentinfo" data-widget-pv=".pv" data-widget-cv="false">
 
                                     @foreach($gamecates4 as $game)
-                                    <li data-topicId="10054043_1_92064">
+                                    <li data-topicId="">
                                         <div class="pic-box">
                                             <a href="{{$game->game_url}}" target="_blank">
                                                 <img src="{{$game->images}}" alt="" width="75" height="75">
@@ -167,7 +167,7 @@
                                         </div>
                                         <div class="detail-box">
                                             <div class="tit"><a href="{{$game->game_url}}" target="_blank">{{$game->name}}</a></div>
-                                            <div class="info"><span class="sep">|</span><span class="num pv"></span> Người đã chơi</div>
+                                            <div class="info"><span class="sep">|</span><span class="num pv">{{$game->views}}</span> Người đã chơi</div>
                                             <div class="link-box">
                                                 <a href="{{$game->game_url}}" target="_blank">Chơi ngay</a><br>
                                                 <a href="javascript:;" class="mobile" >{{$game->name}}</a>
@@ -182,7 +182,7 @@
                             <div class="gb-tab-con" style="display: none;">
                                 <ul class="list-game js-code clearfix" id="demo1" data-widget="commentinfo" data-widget-pv=".pv" data-widget-cv="false">
                                     @foreach($gamecates5 as $game)
-                                    <li data-topicId="10054043_1_92064">
+                                    <li data-topicId="">
                                         <div class="pic-box">
                                             <a href="{{$game->game_url}}" target="_blank">
                                                 <img src="{{$game->images}}" alt="" width="75" height="75">
@@ -190,7 +190,7 @@
                                         </div>
                                         <div class="detail-box">
                                             <div class="tit"><a href="{{$game->game_url}}" target="_blank">{{$game->name}}</a></div>
-                                            <div class="info"><span class="sep">|</span><span class="num pv"></span> Người đã chơi</div>
+                                            <div class="info"><span class="sep">|</span><span class="num pv">{{$game->views}}</span> Người đã chơi</div>
                                             <div class="link-box">
                                                 <a href="{{$game->game_url}}" target="_blank">Chơi ngay</a><br>
                                                 <a href="javascript:;" class="mobile" >{{$game->name}}</a>
@@ -205,7 +205,7 @@
                                 <ul class="list-game js-code clearfix" id="demo1" data-widget="commentinfo" data-widget-pv=".pv" data-widget-cv="false">
 
                                     @foreach($gamecates6 as $game)
-                                    <li data-topicId="10054043_1_92064">
+                                    <li data-topicId="">
                                         <div class="pic-box">
                                             <a href="{{$game->game_url}}" target="_blank">
                                                 <img src="{{$game->images}}" alt="" width="75" height="75">
@@ -213,7 +213,7 @@
                                         </div>
                                         <div class="detail-box">
                                             <div class="tit"><a href="{{$game->game_url}}" target="_blank">{{$game->name}}</a></div>
-                                            <div class="info"><span class="sep">|</span><span class="num pv"></span> Người đã chơi</div>
+                                            <div class="info"><span class="sep">|</span><span class="num pv">{{$game->views}}</span> Người đã chơi</div>
                                             <div class="link-box">
                                                 <a href="{{$game->game_url}}" target="_blank">Chơi ngay</a><br>
                                                 <a href="javascript:;" class="mobile" >{{$game->name}}</a>
@@ -237,7 +237,7 @@
                         </div>
                         <div class="mod-bd">
                             <ul class="list-rank js-rank">
-                            @foreach($ranks as $game)
+                            @foreach($week_ranks as $game)
                                 <li>
                                     <a href="{{$game->game_url}}" target="_blank" class="con">
                                         <span class="num">1</span>
@@ -247,7 +247,7 @@
                                                 </span>
                                                 <span class="txt">
                                                     <span class="t1">{{$game->name}}</span>
-                                                <span class="t2"><span class="c-tx" data-pv>936</span> người chơi</span>
+                                                <span class="t2"><span class="c-tx" data-pv>{{$game->views}}</span> người chơi</span>
                                             </span>
                                         </span>
                                     </a>
@@ -265,7 +265,7 @@
                         </div>
                         <div class="mod-bd">
                             <ul class="list-rank js-rank">
-                                @foreach($ranks as $game)
+                                @foreach($month_ranks as $game)
                                 <li>
                                     <a href="{{$game->game_url}}" target="_blank" class="con">
                                         <span class="num">1</span>
@@ -275,7 +275,7 @@
                                             </span>
                                             <span class="txt">
                                             <span class="t1">{{$game->name}}</span>
-                                        <span class="t2"><span class="c-tx" data-pv>1955</span> người chơi</span>
+                                        <span class="t2"><span class="c-tx" data-pv>{{$game->views}}</span> người chơi</span>
                                         </span>
                                         </span>
                                     </a>

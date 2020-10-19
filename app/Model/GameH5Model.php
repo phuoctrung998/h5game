@@ -19,13 +19,19 @@ class GameH5Model extends Model
 
     public static function game()
     {
-        $games = GameModel::Paginate(15);
+        $games = GameModel::all();
         return $games;
     }
 
-    public static function rank()
+    public static function week_rank()
     {
-        $ranks = GameModel::simplePaginate(6);
+        $ranks = GameModel::where('views', '>', '2000')->orderByDesc('views')->paginate(7);
+        return $ranks;
+    }
+
+    public static function month_rank()
+    {
+        $ranks = GameModel::where('views', '>', '3000')->orderByDesc('views')->paginate(5);
         return $ranks;
     }
 

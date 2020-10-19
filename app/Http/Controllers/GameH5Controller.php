@@ -30,10 +30,11 @@ class GameH5Controller extends Controller
     public function index()
     {
         $allgames     = GameH5Model::game();
-        $ranks        = GameH5Model::rank();
+        $week_ranks   = GameH5Model::week_rank();
+        $month_ranks   = GameH5Model::month_rank();
         $hots         = GameH5Model::hot();
         $sliders      = GameH5Model::slider();
-        $counts       = count($hots);
+        $counts       = count($allgames);
         $cates        = GameH5Model::allcate();
         $gamecates    = GameH5Model::getAllGamesByCateId(1);
         $gamecates2   = GameH5Model::getAllGamesByCateId(2);
@@ -42,7 +43,7 @@ class GameH5Controller extends Controller
         $gamecates5   = GameH5Model::getAllGamesByCateId(5);
         $gamecates6   = GameH5Model::getAllGamesByCateId(6);
 
-        return view('frontend.home',compact('allgames','hots','cates','counts','sliders','ranks',
+        return view('frontend.home',compact('allgames','hots','cates','counts','sliders','week_ranks','month_ranks',
                                             'gamecates','gamecates2','gamecates3','gamecates4','gamecates5','gamecates6'));
     }
 
